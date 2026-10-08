@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Nidu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h2>🌙 Nidu</h2>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Interests</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="small-text">HELLO, I'M</p>
+            <h1>Nidu ✨</h1>
+            <h2>A Curious Mind with a Creative Soul</h2>
+            <p>
+                Exploring technology, creativity, and the mysteries of the future.
+            </p>
+
+            <button onclick="showMessage()">Know More About Me</button>
+            <p id="message"></p>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+
+        <div class="about-box">
+            <p>
+                I am a curious and creative student who loves learning new things.
+                I am interested in technology, programming, Artificial Intelligence,
+                cybersecurity and future technologies.
+            </p>
+
+            <p>
+                I like understanding complicated topics in simple ways.
+                I believe in learning continuously and improving myself step by step.
+            </p>
+
+            <p>
+                Apart from technology, I enjoy creativity, photography,
+                aesthetic designs and exploring unique ideas.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2>My Interests</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <span>💻</span>
+                <h3>Technology</h3>
+                <p>
+                    Interested in programming, IT, CSE, cybersecurity and
+                    modern technologies.
+                </p>
+            </div>
+
+            <div class="card">
+                <span>🤖</span>
+                <h3>Artificial Intelligence</h3>
+                <p>
+                    Curious about GenAI, chatbots and how AI can shape the future.
+                </p>
+            </div>
+
+            <div class="card">
+                <span>⚛️</span>
+                <h3>Future Tech</h3>
+                <p>
+                    Interested in quantum computers, quantum physics and
+                    future computing.
+                </p>
+            </div>
+
+            <div class="card">
+                <span>🎨</span>
+                <h3>Creativity</h3>
+                <p>
+                    I enjoy photography, artistic styles, aesthetic designs
+                    and creative ideas.
+                </p>
+            </div>
+
+            <div class="card">
+                <span>📚</span>
+                <h3>Learning</h3>
+                <p>
+                    I enjoy learning new subjects and understanding things
+                    until they become clear.
+                </p>
+            </div>
+
+            <div class="card">
+                <span>🌌</span>
+                <h3>Mysterious Vibes</h3>
+                <p>
+                    I love cosmic, dreamy and mysterious aesthetics.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section qualities">
+        <h2>My Qualities</h2>
+
+        <div class="qualities-list">
+            <div>🔍 Curious</div>
+            <div>🎯 Goal-Oriented</div>
+            <div>💪 Persistent</div>
+            <div>💡 Creative</div>
+            <div>📖 Eager to Learn</div>
+            <div>😄 Fun-Loving</div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <h2>My Motto</h2>
+
+        <p>
+            "Keep learning. Keep creating. Keep becoming better." ✨
+        </p>
+
+        <div class="signature">
+            — Nidu 🌙
+        </div>
+    </section>
+
+    <footer>
+        <p>Made with 💜 by Nidu</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
